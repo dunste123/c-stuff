@@ -5,7 +5,7 @@
 #include <cmath>
 #include "bmi.h"
 
-void bmi() {
+void BmiExample::run() {
     double height, weight, bmi;
 
     // Ask user for their height

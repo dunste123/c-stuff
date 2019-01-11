@@ -4,7 +4,7 @@
 #include <iostream>
 #include "tip.h"
 
-void tip() {
+void TipExample::run() {
     int tip = 0;
 
     std::cout << "Enter tip amount: ";

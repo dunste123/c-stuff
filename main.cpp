@@ -11,19 +11,26 @@ int main() {
     std::cin >> choice;
 
     if (choice == "tip") {
-        tip();
+        TipExample tipExample;
+
+        tipExample.run();
 
         return 0;
     }
 
     if (choice == "temp") {
-        temperature();
+        Temperature temperature;
+
+        temperature.run();
 
         return 0;
     }
 
     if (choice == "bmi") {
-        bmi();
+
+        BmiExample bmiExample;
+
+        bmiExample.run();
 
         return 0;
     }

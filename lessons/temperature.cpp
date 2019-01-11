@@ -5,7 +5,7 @@
 #include <iostream>
 #include "temperature.h"
 
-void temperature() {
+void Temperature::run() {
 
     double tempf;
     double tempc;

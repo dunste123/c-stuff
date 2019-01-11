@@ -6,7 +6,10 @@
 #define C_TIP_H
 
 
-void tip();
+class TipExample {
+public:
+    void run();
+};
 
 
 #endif //C_TIP_H

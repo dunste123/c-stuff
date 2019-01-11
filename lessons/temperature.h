@@ -6,7 +6,10 @@
 #define C_TEMPERATURE_H
 
 
-void temperature();
+class Temperature {
+public:
+    void run();
+};
 
 
 #endif //C_TEMPERATURE_H

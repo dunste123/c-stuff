@@ -6,7 +6,10 @@
 #define C_BMI_H
 
 
-void bmi();
+class BmiExample {
+public:
+    void run();
+};
 
 
 #endif //C_BMI_H
