@@ -1,0 +1,1 @@
+g++ -o advanced.exe main.cpp lessons/*
