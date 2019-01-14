@@ -10,18 +10,20 @@ int main() {
     std::cout << "Choose an action (tip, temp, bmi): ";
     std::cin >> choice;
 
-    if (choice == "tip") {
-        TipExample tipExample;
+    // Note to self: https://stackoverflow.com/a/12248783
 
-        tipExample.run();
+    if (choice == "tip") {
+        TipExample* tipExample = new TipExample;
+
+        tipExample->run();
 
         return 0;
     }
 
     if (choice == "temp") {
-        Temperature temperature;
+        auto temperature = new Temperature();
 
-        temperature.run();
+        temperature->run();
 
         return 0;
     }
